@@ -292,3 +292,33 @@ flutter build ios --release
 - **Smart Sync**: Background synchronization with conflict resolution
 - **Graceful Degradation**: Full functionality without internet
 - **Data Persistence**: Hive database with schema migrations
+
+---
+
+## 🚀 CI/CD Pipeline
+
+This project includes automated CI/CD with GitHub Actions:
+
+### Automated Workflows
+- **Code Quality**: Linting and formatting checks
+- **Testing**: Automated test execution with coverage reports
+- **Build**: APK generation for releases
+- **Coverage**: Integration with Codecov for test coverage tracking
+
+### Pipeline Stages
+1. **Analysis**: `flutter analyze` and `dart format`
+2. **Testing**: `flutter test --coverage`
+3. **Build**: `flutter build apk --release`
+4. **Artifacts**: Upload APK and coverage reports
+
+---
+
+## 📐 Architecture Documentation
+
+Detailed architecture documentation is available in [`/docs/architecture.md`](./docs/architecture.md):
+
+- **Clean Architecture Diagrams**: Visual representation of layer separation
+- **State Management Flow**: BLoC pattern implementation details
+- **Offline-First Strategy**: Data synchronization approach
+- **Design Decisions**: Technical choices and their rationale
+- **Future Scalability**: Extension points for new features

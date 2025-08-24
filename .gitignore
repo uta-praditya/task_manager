@@ -32,6 +32,8 @@ migrate_working_dir/
 .pub-cache/
 .pub/
 /build/
+.amazonq/
+requirement.md
 
 # Symbolication related
 app.*.symbols
@@ -44,6 +46,3 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
-# Amazon Q and project files
-.amazonq/
-requirement.md
