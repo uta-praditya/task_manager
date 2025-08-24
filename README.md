@@ -190,7 +190,7 @@ This app follows **Clean Architecture** with strict separation of concerns and S
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/task_manager.git
+git clone https://github.com/uta-praditya/task_manager.git
 cd task_manager
 ```
 
